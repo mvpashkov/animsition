@@ -348,6 +348,8 @@ header {
 }
 .is-sticky .header {
   background-color: black;
+  z-index: 1000;
+  /*fixed position*/
 }
 /*.is-sticky - присваивается автоматом при прокрутке страницы и убирается при
 возвращении страницы*/
@@ -362,3 +364,13 @@ header {
   margin: 0;
 
 }
+
+/* slick styles */
+/*.slick-dots {
+  bottom: 20px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+}
+*/
